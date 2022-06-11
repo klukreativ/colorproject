@@ -1,0 +1,21 @@
+.SingleColorPalette {
+    height:100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+}
+
+.SingleColorPalette-inner {
+    height: 90%;
+}
+
+.Backbox {
+    background: black;
+    width: 20%;
+    height: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: -4px;
+}
